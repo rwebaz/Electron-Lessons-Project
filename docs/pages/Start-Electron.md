@@ -1,13 +1,16 @@
 ---
 title: Start Electron
 layout: default
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'lead' here ...
+version: Page Template md Dtd 02-06-18
+navigation_weight: 8
+categories: electron
 ---
-# Start Electron
+# {{ page.title }}
 
-**Electron** is an app engine.
+{{ page.excerpt }}
 
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## First Subtitle
 
@@ -23,9 +26,15 @@ electron ./src/app1/main.js
 {% endraw %}
 ```
 
+## Import Code
+
+More to come ...
+
 ## Last Subtitle
 
 Place the introducing line of text ie.) the 'tagline' here ...
+
+### Raw Code Block
 
 ```liquid
 {% raw %}
@@ -37,4 +46,6 @@ Place code here
 
 ### External Sources
 
-- The [Project Source Links](https://mminail.github.io/Electron/Source-Electron-Links.htm){:title="Click to Visit the Source Links page of the Electron Lessons Project at GitHub pages"}{:target="_blank"} page of the Electron Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Electron/Source-Electron-Links.htm){:title="Click to Visit the Source Links page of the Electron Lessons Project at GitHub pages"}{:target="_blank"} page of the Electron Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+**Note**. This page crafted with {{ page.version }}.
