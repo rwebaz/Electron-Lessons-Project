@@ -1,7 +1,7 @@
 ---
-title: Start Electron
+title: Shell Gist
 layout: default
-excerpt: To engage the Electron development engine ...
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Electron-Lessons-Project
 ver_date: 11-26-19
@@ -10,19 +10,11 @@ categories: page
 ---
 {% include toc.md %}
 
-## Local Terminal
+## First Subtitle
 
 > **Hint**. {{ page.hint }}
 
-From the local Terminal prompt `$` of your **My_ELECTRON** directory
-
-- Type the following command statement
-
-```liquid
-{% raw %}
-electron ./src/app1/main.js
-{% endraw %}
-```
+More to come ...
 
 ## Last Subtitle
 
